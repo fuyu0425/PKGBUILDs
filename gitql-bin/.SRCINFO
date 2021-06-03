@@ -1,0 +1,16 @@
+pkgbase = gitql-bin
+	pkgdesc = A git query language
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = https://github.com/cloudson/gitql
+	arch = x86_64
+	license = MIT
+	depends = glibc
+	provides = gitql
+	source = gitql-bin-2.1.0.zip::https://github.com/filhodanuvem/gitql/releases/download/2.1.0/gitql-linux64.1.zip
+	source = LICENSE::https://github.com/cloudson/gitql/raw/master/LICENSE
+	sha256sums = ecdb8bc2dd28a4d216c2ec87d4d94cfeb406657c0c39e6cb6c511dca3ac51fa8
+	sha256sums = ca995d876d4738b7f7309c46f443f42bc887db327ed183fe46733a59f06f80b5
+
+pkgname = gitql-bin
+
